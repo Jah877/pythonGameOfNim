@@ -1,0 +1,33 @@
+Jahkim Brown-Roopnarine
+ICS 3UO - A
+November 22, 2021
+v.1.4
+Unit 4 Programming / Problem set 5 / Question 3
+Python 3.9.0
+
+Description
+This program will run the ancient Chinese Game of Nim. The program will choose a number of stones between 15 and 30 as
+two players swap turns taking their choice of 1, 2, or 3 stones from the lot. The player that is forced to take up the
+last stone loses the game. Players can not intentionally choose to take the last stone, if not compulsory. This program
+will allow the option to play multiplayer or single player. The single player mode will also have two levels of
+difficulty that may be played. The first difficulty completes the basic gameplay, as the program will select stones at
+random, while making sure not to violate the rules of the game. The second difficulty is harder, and the program follows
+an algorithm to ensure that it will win whenever possible. Multiplayer mode will be able to be played by two players
+on the same device.
+
+Assumptions
+To run this program a version of python 3.0.0 or greater is needed.
+
+Features
+I have added a main menu for an integrated UI, a rule book, two single player difficulties, a multiplayer difficulty,
+also integrated on-line documentation.
+
+Restrictions
+This progam will not refresh counted wins for players in multiplayer, or single players in single player mode, or computer
+wins in single player mode, unless the code is terminated and reran. This progam's UI is oriented around travel throughout
+the main menu: thus, all loops are infinite, unless quit is typed or exit is selected within the main menu. To change game modes
+navigation through main menu is necessary.
+
+No known errors.
+No implementation details necessary.
+No additional files needed.
